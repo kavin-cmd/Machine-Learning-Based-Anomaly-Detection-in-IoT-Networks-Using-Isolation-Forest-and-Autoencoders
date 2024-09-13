@@ -1,0 +1,12 @@
+{
+    "dataset_path": "data/KDDCup99.csv",
+    "models_path": "models/",
+    "isolation_forest": {
+        "contamination": 0.01
+    },
+    "autoencoder": {
+        "epochs": 50,
+        "batch_size": 256,
+        "validation_split": 0.1
+    }
+}
